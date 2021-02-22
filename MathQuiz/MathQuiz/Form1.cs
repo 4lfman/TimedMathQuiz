@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace MathQuiz
 {
@@ -33,6 +34,8 @@ namespace MathQuiz
 
         //Keeps track of the remaining time
         int timeLeft;
+
+        SoundPlayer correctAnswer = new SoundPlayer(@"c:\Windows\Media\tada.wav");
 
         private void StartTheQuiz()
         {
@@ -150,6 +153,40 @@ namespace MathQuiz
             {
                 int lengthOfAnswer = answerBox.Value.ToString().Length;
                 answerBox.Select(0, lengthOfAnswer);
+            }
+        }
+
+        private void sum_ValueChanged(object sender, EventArgs e)
+        {
+            if (sum.Value == addend1 + addend2)
+            {
+                sum.BackColor = Color.Green;
+                correctAnswer.Play();
+            }
+        }
+
+        private void differance_ValueChanged(object sender, EventArgs e)
+        {
+            if (difference.Value == minuend-subtrahend)
+            {
+                difference.BackColor = Color.Green;
+                correctAnswer.Play();
+            }
+        }
+        private void product_ValueChanged(object sender, EventArgs e)
+        {
+            if (product.Value == multiplicand*multiplier)
+            {
+                product.BackColor = Color.Green;
+                correctAnswer.Play();
+            }
+        }
+        private void quotient_ValueChanged(object sender, EventArgs e)
+        {
+            if (quotient.Value == dividend/divisor)
+            {
+                quotient.BackColor = Color.Green;
+                correctAnswer.Play();
             }
         }
     }
