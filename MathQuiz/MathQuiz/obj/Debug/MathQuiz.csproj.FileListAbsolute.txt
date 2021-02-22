@@ -8,3 +8,13 @@ C:\Users\alsj03001\source\repos\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.Gene
 C:\Users\alsj03001\source\repos\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
 C:\Users\alsj03001\source\repos\MathQuiz\MathQuiz\obj\Debug\MathQuiz.exe
 C:\Users\alsj03001\source\repos\MathQuiz\MathQuiz\obj\Debug\MathQuiz.pdb
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\bin\Debug\MathQuiz.exe.config
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\bin\Debug\MathQuiz.exe
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\bin\Debug\MathQuiz.pdb
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csprojAssemblyReference.cache
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.Form1.resources
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.Properties.Resources.resources
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.GenerateResource.cache
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.exe
+C:\Users\Alfred\source\repos\TimedMathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.pdb

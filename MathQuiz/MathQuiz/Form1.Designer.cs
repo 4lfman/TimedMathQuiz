@@ -126,14 +126,21 @@ namespace MathQuiz
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 35);
             this.sum.TabIndex = 2;
+            this.sum.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // difference
             // 
             this.difference.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.difference.Location = new System.Drawing.Point(314, 138);
+            this.difference.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.difference.Name = "difference";
             this.difference.Size = new System.Drawing.Size(100, 35);
             this.difference.TabIndex = 3;
+            this.difference.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // minusRightLabel
             // 
@@ -179,9 +186,15 @@ namespace MathQuiz
             // 
             this.product.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.product.Location = new System.Drawing.Point(314, 203);
+            this.product.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.product.Name = "product";
             this.product.Size = new System.Drawing.Size(100, 35);
             this.product.TabIndex = 4;
+            this.product.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // timesLeftLabel
             // 
@@ -227,9 +240,15 @@ namespace MathQuiz
             // 
             this.quotient.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quotient.Location = new System.Drawing.Point(314, 264);
+            this.quotient.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.quotient.Name = "quotient";
             this.quotient.Size = new System.Drawing.Size(100, 35);
             this.quotient.TabIndex = 5;
+            this.quotient.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // dividedRightLabel
             // 
